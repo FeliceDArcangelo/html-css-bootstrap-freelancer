@@ -13,21 +13,21 @@
     <div class="nav-container fixed-top">
         <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">START BOOTSTRAP</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" aria-current="page" href="#">PORTFOLIO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">ABOUT</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
+                    CONTACT
                     </a>
                     <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#">Action</a></li>
@@ -62,7 +62,7 @@
             GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
         </h4>
     </div>
-    <main>
+    <main class="pb-3">
         <div class="card-container m-5 p-2">
             <h2 class="text-center pb-1">
                 PORTFOLIO
@@ -75,6 +75,7 @@
             <div class="row g-2">
                 <div class="col-auto col-md-6 col-lg-4 p-3">
                     <img class="cards" src="img/cabin.png" alt="">
+                    <div class="plus-img"><i class="fa-solid fa-plus"></i></div>
                 </div>
                 <div class="col-auto col-md-6 col-lg-4 p-3">
                     <img class="cards" src="img/cake.png" alt="">
@@ -107,16 +108,19 @@
                         <p class="col-auto-sm col-lg-6">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is perfect starting point!</p>
                     </div>
                 </div>
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-outline-light color-btn"><i class="fa-solid fa-download"></i> Download</button>
+                </div>
             </div>    
         </div>
-        <div class="contact-container">
+        <div class="contact-container pt-5">
             <h2 class="text-center">CONTACT ME</h2>
             <div class="d-flex justify-content-center align-items-center px-2">
                 <div class="line-2"></div>
                 <div class="star text-center"><i class="fa-solid fa-star"></i></div>
                 <div class="line-2"></div>
             </div> 
-            <div class="container">
+            <div class="container pt-2">
                 <form action="">
                     <div class="mb-3">
                         <label for="inputName" class="form-label">Name</label>
@@ -131,24 +135,24 @@
                         <input type="tel" id="phone" name="phone" class="form-control" required>
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>  
-                    <button type="button" class="btn btn-outline-light --bs-success-rgb">Light</button>
+                    <button type="button" class="btn btn-outline-light color-btn">Send</button>
                 </form>
             </div>
         </div>
     </main>
-    <footer>
-        <div class="first-foot">
+    <footer class="pt-5">
+        <div class="first-foot pb-5">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center">
+                <div class="row g-5">
+                    <div class="col-12 col-md-4 text-center">
                         <div>LOCATION</div>
                         <div>2215 John Daniel Drive Clark, MO 54243</div>
                     </div>
-                    <div class="col-12 text-center">
-                        <div>AROUND THE WEB</div>
+                    <div class="col-12 col-md-4 text-center">
+                        <div class="pb-1">AROUND THE WEB</div>
                         <div class="d-flex justify-content-center social">
                             <div><i class="fa-brands fa-facebook-f"></i></div>
                             <div><i class="fa-brands fa-google-plus-g"></i></div>
@@ -156,7 +160,7 @@
                             <div><i class="fa-brands fa-linkedin-in"></i></div>
                         </div>
                     </div>
-                    <div class="col-12 text-center">
+                    <div class="col-12 col-md-4 text-center">
                         <div>ABOUT FREELANCER</div>
                         <div>Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span>.</div>
                     </div>

@@ -2,6 +2,10 @@
     background-color: rgb(44, 61, 80);
 }
 
+.navbar-brand{
+    font-weight: 700;
+}
+
 .jumbo{
     background-color: rgb(26, 188, 156);
     color: white;
@@ -31,6 +35,18 @@
     font-size: 2rem;
 }
 
+.plus-img{
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(1, 188, 113, 0.569);
+
+}
+
+.plus-img:hover{
+    display: block;
+    z-index: 99;
+}
+
 .cards{
     width: 100%;
     border-radius: 1em;
@@ -39,6 +55,10 @@
 .about-us-container{
     background-color: rgb(26, 188, 156);
     color: white;
+}
+
+.color-btn{
+    background-color: rgb(26, 188, 156);
 }
 
 .first-foot{
