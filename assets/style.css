@@ -85,3 +85,10 @@
     background-color: rgb(44, 61, 80);
     color: white;
 }
+
+.form-control{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-inline: 0;
+}
